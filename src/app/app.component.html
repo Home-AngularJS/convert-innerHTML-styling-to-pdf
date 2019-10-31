@@ -1,0 +1,11 @@
+<div class="pageWrapper">
+  <div class="content">
+    <kendo-pdf-export #pdf paperSize="A4" margin="2cm">
+      <div class="size-a4" [innerHTML]="teceiptTemplate"></div>
+    </kendo-pdf-export>
+
+    <div style="text-align: center">
+      <button kendo-button (click)="pdf.saveAs('demo-content.pdf')">Export As PD</button>
+    </div>
+  </div>
+</div>
