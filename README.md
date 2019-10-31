@@ -9,6 +9,8 @@
 * [How to style child components from parent component's CSS file](https://stackoverflow.com/questions/36527605/how-to-style-child-components-from-parent-components-css-file)
   * ( https://stackoverflow.com/questions/36265026/angular-2-innerhtml-styling )
 
+![screenshot](screenshot.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
 
 ## Development server
