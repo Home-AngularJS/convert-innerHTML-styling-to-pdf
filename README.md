@@ -1,4 +1,4 @@
-# KendoAngularExportPdf
+#Angular convert innerHtml + Styling to PDF
 
 * [Angular 7: convert HTML to PDF](https://stackoverflow.com/questions/54629163/angular-7-convert-html-to-pdf)
 * [Exporting Angular Page Content to PDF Using Kendo UI](https://www.telerik.com/blogs/exporting-angular-page-content-to-pdf-using-kendo-ui)
