@@ -16,3 +16,27 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+
+---
+
+* [Can you use both styles and styleUrls in an Angular component?](https://stackoverflow.com/questions/45723055/can-you-use-both-styles-and-styleurls-in-an-angular-component)
+  * ```text
+    styles: [require('his-common.component.css'), 'h1 { font-weight: normal; }']
+    ```
+* [@types/node](https://www.npmjs.com/package/@types/node)
+  * ```text
+    npm install --save @types/node
+    ```
+* [Ошибка при получении TypeScript TS2304: невозможно найти имя 'require'](http://qaru.site/questions/31828/typescript-getting-error-ts2304-cannot-find-name-require)
+  * **(** tsconfig.app.json **)**
+  * ```text
+      "compilerOptions": {
+        "outDir": "../out-tsc/app",
+        "module": "es2015",
+        "types": [ "node" ],
+        "typeRoots": [ "../node_modules/@types" ]
+      },
+    ```
+
+https://stackoverflow.com/questions/43104114/cannot-find-name-require-after-upgrading-to-angular4
