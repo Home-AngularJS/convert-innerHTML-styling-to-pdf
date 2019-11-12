@@ -1,19 +1,4 @@
 
-export function getTemplate() {
-  const dest = {
-    'html': '<div>\n' +
-      '      <h1>Hello 1</h1>\n' +
-      '      <h2>Hello 2</h2>\n' +
-      '      <p class="class1">Hello 3</p>\n' +
-      '    </div>\n' +
-      '    <hr>',
-    'css': ':host ::ng-deep h1{ color: red; }' +
-      ':host ::ng-deep h2{ color: blue; }' +
-      ':host ::ng-deep .class1{ color: yellow; }'
-  };
-  return dest;
-}
-
 export function getTeceiptTemplates() {
   const dest = [
     {
